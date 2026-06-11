@@ -1,0 +1,32 @@
+/*Arquivo estilo.css ---- menu1 centralizado */
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+body{ font-family: Ms Trebuchet; }
+        a{ text-decoration: none; color: #000; }
+        a:hover{ }
+#all{
+            width: 580px;
+            height: 80px;
+            line-height: 80px; /* centraliza na vertical */
+            background-color: #f1f1f1;
+            border: 1px dashed #ccc;
+            margin: 0px auto;
+        }
+ul.menu{
+            text-align: center; /* centraliza na horizontal */
+        }
+ul.menu li{
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0px 5px;
+        }
+ul.menu li a{
+            background-color: #b33d3d;
+            border-radius: 6px; /*bordas arredondadas*/
+            padding: 6px 10px;
+            color: #fff;
+        }
+ul.menu li a:hover{
+            background-color: #dc8b8b;
+        }
