@@ -1,0 +1,31 @@
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+body{ font-family: Ms Trebuchet; }
+        a{ text-decoration: none; color: #000; }
+        a:hover{ }
+#all{
+            width: 580px;
+            height: 80px;
+            line-height: 80px; /* centraliza na vertical */
+            background-color: #FF6A6A;
+            border: 1px dashed #FF6A6A;
+            margin: 0px auto;
+        }
+ul.menu{
+            text-align: center; /* centraliza na horizontal */
+        }
+ul.menu li{
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0px 5px;
+        }
+ul.menu li a{
+            background-color: #ffffff;
+            border-radius: 6px; /*bordas arredondadas*/
+            padding: 6px 10px;
+            color: #000000;
+        }
+ul.menu li a:hover{
+            background-color: #000000;
+        }
